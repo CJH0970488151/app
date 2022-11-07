@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val btnAnswer = findViewById<Button>(R.id.btn_answer)
         val btnReanswer = findViewById<Button>(R.id.btn_reanswer)
         val btnShowAnswer = findViewById<Button>(R.id.btn_showanswer)
+        val tvResult = findViewById<TextView>(R.id.tv_result)
         var index = 0
         val riddleList = mutableListOf("0000，猜一成語。:四大皆空","人有他大，天沒他大。:一","1+2+3，猜一成語。:接二連三","5，10，猜一成語。:一五一十")
         edAnswer.text = null
